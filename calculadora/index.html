@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal-content">
+        <br><br><br>
+        <div class="calc-content">
+
+            <div class="display-content">
+                <div id="historic" class="historic-display"></div>
+                <div id="display" class="input-display"></div>
+            </div>
+
+            <div class="button-content">
+                <button class="button color-dark" onclick="calc.readButton('c')">C</button>
+                <button class="button color-dark" onclick="calc.readButton('ce')">CE</button>
+                <button class="button color-dark font-small" onclick="calc.readButton('del')">DEL</button>
+                <button class="button color-dark font-big" onclick="calc.readButton('division')">&#247</button>
+                <button class="button color-light" onclick="calc.readButton('7')">7</button>
+                <button class="button color-light" onclick="calc.readButton('8')">8</button>
+                <button class="button color-light" onclick="calc.readButton('9')">9</button>
+                <button class="button color-light font-big" onclick="calc.readButton('multiplication')">&#215</button>
+                <button class="button color-light" onclick="calc.readButton('4')">4</button>
+                <button class="button color-light" onclick="calc.readButton('5')">5</button>
+                <button class="button color-light" onclick="calc.readButton('6')">6</button>
+                <button class="button color-light font-big" onclick="calc.readButton('subtraction')">&#8722</button>
+                <button class="button color-light" onclick="calc.readButton('1')">1</button>
+                <button class="button color-light" onclick="calc.readButton('2')">2</button>
+                <button class="button color-light" onclick="calc.readButton('3')">3</button>
+                <button class="button color-light font-big" onclick="calc.readButton('addition')">&#43</button>
+                <button class="button color-dark font-small" onclick="calc.readButton('invertValue')">&#43&#8260&#8722</button>
+                <button class="button color-light" onclick="calc.readButton('0')">0</button>
+                <button class="button color-light font-big" onclick="calc.readButton('dot')">&#183</button>
+                <button class="button color-dark font-big" onclick="calc.readButton('calculate')">&#61</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="controller/calcController.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

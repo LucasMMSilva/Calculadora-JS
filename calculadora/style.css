@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+.principal-content{
+    background-color: #99abc2;
+    height: 100vh;
+    width: 100vw;
+}
+.calc-content{
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, #ffffff, #f3f4fa, #e5eaf6, #d5e1f1, #c2d8ec);
+    border: 5px solid #011A3A;
+    width: 260px;
+    border-radius: 40px;
+    padding: 30px 20px;
+    box-shadow: #46647c 0px 3px 10px 1px;
+}
+.display-content{
+    display: grid;
+    margin: 0 auto;
+    background-color:#011A3A;
+    border-top: solid 4px #bfd1e9;
+    border-bottom: solid 4px #536a88;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px 8px;
+}
+.historic-display{
+    display: flex;
+    justify-content: right;
+    color: white;
+    font-size: 18px;
+}
+.input-display{
+    display: flex;
+    justify-content: right;
+    font-size: 58px;
+    padding: 15px 0;
+    color: #FFAA00;
+}
+.button-content{
+    display: grid;
+    margin: 15px auto 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6px;
+    justify-self: center;
+    width: 85%;
+
+
+}
+.button{
+    cursor: pointer;
+    background-color: azure;
+    border-radius: 10px;
+    height: 50px;
+    border: solid 2px;
+    color: #FFAA00;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+.color-dark{
+    background: linear-gradient(0deg, rgb(1, 27, 59) 0%, rgb(1, 15, 31) 100%);
+    border-color:  rgb(1, 15, 31);
+}
+.color-light{
+    background: linear-gradient(0deg, rgb(40, 63, 86) 0%, rgb(3, 35, 67) 100%);
+    border-color:  rgb(1, 15, 31);
+}
+.font-small{
+    font-size: 18px;
+}
+.font-big{
+    font-size: 40px;
+    line-height: 40px;
+}
